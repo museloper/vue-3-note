@@ -42,4 +42,13 @@ import DocumentationIcon from './icons/IconDocumentation.vue'
     <RouterLink to="/tutorial/04">v-bind & v-on</RouterLink>
     을 함께 사용하면, 양방향 바인딩을 만들 수 있다.
   </WelcomeItem>
+  <WelcomeItem>
+    <template #icon>
+      <DocumentationIcon />
+    </template>
+    <template #heading>5. 폼(form) 바인딩 2</template>
+
+    <RouterLink to="/tutorial/05">v-model</RouterLink>
+    을 사용하면, 양방향 바인딩을 간소화 할 수 있다.
+  </WelcomeItem>
 </template>

@@ -71,4 +71,13 @@ import DocumentationIcon from './icons/IconDocumentation.vue'
     <RouterLink to="/tutorial/07">v-for</RouterLink>
     디렉티브를 사용하여 자료 배열을 엘리먼트 목록으로 렌더링할 수 있다.
   </WelcomeItem>
+  <WelcomeItem>
+    <template #icon>
+      <DocumentationIcon />
+    </template>
+    <template #heading>8. 계산된 속성</template>
+
+    <RouterLink to="/tutorial/08">computed</RouterLink>
+    옵션을 사용하여 반응적으로 계산되는 속성을 선언할 수 있다.
+  </WelcomeItem>
 </template>

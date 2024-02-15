@@ -51,4 +51,15 @@ import DocumentationIcon from './icons/IconDocumentation.vue'
     <RouterLink to="/tutorial/05">v-model</RouterLink>
     을 사용하면, 양방향 바인딩을 간소화 할 수 있다.
   </WelcomeItem>
+  <WelcomeItem>
+    <template #icon>
+      <DocumentationIcon />
+    </template>
+    <template #heading>6. 조건부 렌더링</template>
+
+    엘리먼트를 조건부로 렌더링하기 위해
+    <RouterLink to="/tutorial/06">v-if</RouterLink> 및
+    <RouterLink to="/tutorial/06">v-else</RouterLink>
+    디렉티브를 사용할 수 있다.
+  </WelcomeItem>
 </template>

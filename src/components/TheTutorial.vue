@@ -73,6 +73,13 @@ const datas = ref([
     pre: `데이터가 변경될 때마다 어떤 함수를 실행시키고 싶다면`,
     highlight: `watch`,
     post: `옵션을 사용해보자.`
+  },
+  {
+    chapter: '/tutorial/11',
+    title: '11. 컴포넌트',
+    pre: `자식 컴포넌트를 사용하려면 먼저 import 해야 한다. 그 후`,
+    highlight: `component`,
+    post: `옵션을 사용하여 컴포넌트를 등록하여 사용한다.`
   }
 ])
 </script>

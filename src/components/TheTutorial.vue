@@ -59,6 +59,13 @@ const datas = ref([
     pre: ``,
     highlight: `computed`,
     post: `옵션을 사용하여 반응적으로 계산되는 속성을 선언할 수 있다.`
+  },
+  {
+    chapter: '/tutorial/09',
+    title: '9. 생명주기와 템플릿 참조',
+    pre: `DOM을 수동으로 업데이트 해야 할 경우,`,
+    highlight: `ref`,
+    post: `를 사용하여 템플릿 참조를 요청할 수 있다. `
   }
 ])
 </script>

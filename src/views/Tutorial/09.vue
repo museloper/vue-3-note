@@ -45,10 +45,6 @@ export default {
       <code>
         {{ templateBlock }}
       </code>
-      <code>
-        {{ styleBlock }}
-      </code>
-      
     </pre>
 
     <RouterLink to="/tutorial">목록으로</RouterLink>

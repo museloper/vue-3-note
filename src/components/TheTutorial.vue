@@ -66,6 +66,13 @@ const datas = ref([
     pre: `컴포넌트가 마운트된 후에`,
     highlight: `mounted`,
     post: `옵션을 통해서 엘리먼트에 접근할 수 있다.`
+  },
+  {
+    chapter: '/tutorial/10',
+    title: '10. 감시자',
+    pre: `데이터가 변경될 때마다 어떤 함수를 실행시키고 싶다면`,
+    highlight: `watch`,
+    post: `옵션을 사용해보자.`
   }
 ])
 </script>

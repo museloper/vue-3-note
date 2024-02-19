@@ -63,9 +63,9 @@ const datas = ref([
   {
     chapter: '/tutorial/09',
     title: '9. 생명주기와 템플릿 참조',
-    pre: `DOM을 수동으로 업데이트 해야 할 경우,`,
-    highlight: `ref`,
-    post: `를 사용하여 템플릿 참조를 요청할 수 있다. `
+    pre: `컴포넌트가 마운트된 후에`,
+    highlight: `mounted`,
+    post: `옵션을 통해서 엘리먼트에 접근할 수 있다.`
   }
 ])
 </script>

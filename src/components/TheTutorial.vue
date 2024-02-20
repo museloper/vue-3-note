@@ -80,6 +80,13 @@ const datas = ref([
     pre: `자식 컴포넌트를 사용하려면 먼저 import 해야 한다. 그 후`,
     highlight: `component`,
     post: `옵션을 사용하여 컴포넌트를 등록하여 사용한다.`
+  },
+  {
+    chapter: '/tutorial/12',
+    title: '12. Props',
+    pre: `자식 컴포넌트는`,
+    highlight: `props`,
+    post: `를 통해 부모로부터 데이터를 받을 수 있습니다.`
   }
 ])
 </script>

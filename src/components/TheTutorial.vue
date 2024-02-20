@@ -87,6 +87,13 @@ const datas = ref([
     pre: `자식 컴포넌트는`,
     highlight: `props`,
     post: `를 통해 부모로부터 데이터를 받을 수 있습니다.`
+  },
+  {
+    chapter: '/tutorial/13',
+    title: '13. Emits',
+    pre: `자식 컴포넌트는`,
+    highlight: `emits`,
+    post: `을 통해 부모에게 이벤트를 발송할 수 있다.`
   }
 ])
 </script>

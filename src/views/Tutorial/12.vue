@@ -19,7 +19,7 @@ export default {
           return {
             greeting: '부모 컴포넌트로부터 💌를 전달받았어요!'
           }
-        }
+        },
 
         components: {
           ChildComp

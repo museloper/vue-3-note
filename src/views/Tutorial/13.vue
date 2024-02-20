@@ -19,7 +19,7 @@ export default {
           return {
             childMsg: ''
           }
-        }
+        },
 
         components: {
           ChildComp

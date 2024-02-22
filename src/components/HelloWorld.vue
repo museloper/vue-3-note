@@ -8,7 +8,7 @@ defineProps<{
   <div class="greetings">
     <h1 class="green">{{ msg }}</h1>
     <h3>
-      이 튜토리얼에서는
+      이 노트에서는
       <a href="#" target="_blank" rel="noopener">Options API</a> 방식으로 소스를 작성하고 있음을
       알립니다.
     </h3>
